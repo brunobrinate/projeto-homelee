@@ -1,0 +1,226 @@
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav{
+    margin-top: 2px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+nav>a{
+    padding-right: 50px;
+       
+}
+
+#contact{
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px #3090D2 solid;
+    margin-right: 50px;
+    transition: 250ms;
+    color: #3090D2;
+}
+
+#contact:hover{
+    background-color: #3B9DED;
+    color: white;
+}
+
+#contact:active{
+    background-color:#001B2E;
+}
+
+main{
+    display: inline;
+}
+
+.text-img{
+    font-family: 'Nunito Sans', sans-serif;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.text-img>h1{
+    font-size:2em;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.text-img>img{
+    width: 530px;
+    height: auto;
+    position: right;
+    margin-left: 0;
+}
+
+#text-main{
+    display: block;
+}
+
+#text-main>a{
+    background-color: #3090D2;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 12px;
+    color: white;
+    margin-right: 10px;
+    text-align: center;
+    transition: 250ms;
+}
+
+#text-main>a:hover{
+    background-color: white;
+    border: 1px #3090D2 solid;
+    color: black;
+    box-shadow: 2px 2px 2px #3B9DED;
+
+}
+
+#text-main>a:active{
+    box-shadow: none;
+}
+
+#blue-let{
+    color: #3090D2;
+
+}
+
+footer{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+#services{
+    width: 230px;
+    height: 220px;
+    background-color: #404040;
+    border-radius: 30px 0 0 0;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transition: 500ms;
+    padding-top: 10px;
+}
+
+#services:hover{
+    background-color: #3090D2;
+    /* transform: translateY(-10px);  */
+    transform: translateY(-10px);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 11px 5px 9px rgba(0,0,0,0.75);
+}
+
+#services>h2{
+    margin-top: 25px;
+}
+
+
+#cleaning{
+    width: 230px;
+    height: 220px;
+    background-color: #404040;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transition: 500ms;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#cleaning:hover{
+    background-color: #3090D2;
+    transform: translateY(-10px);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 11px 5px 9px rgba(0,0,0,0.75);
+}
+
+#cleaning>p, h2{
+    margin: 0 0 5px;
+}
+
+#emj-clean>p{
+    font-size: 2em;
+    margin:0;
+    
+}
+
+#plumbing{
+    width: 230px;
+    height: 220px;
+    background-color: #404040;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transition: 500ms;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#plumbing:hover{
+    background-color: #3090D2;
+    transform: translateY(-10px);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 11px 5px 9px rgba(0,0,0,0.75);
+}
+
+#plumbing>p, h2{
+    margin: 0 0 5px;
+}
+
+#emj-plum>p{
+    margin:0;
+    font-size: 2em;
+}
+
+#electrical{
+    width: 230px;
+    height: 220px;
+    background-color: #404040;
+    border-radius: 0 30px 0 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transition: 500ms;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#electrical>p, h2{
+    margin:0 0 5px;
+}
+
+#electrical:hover{
+    background-color: #3090D2;
+    transform: translateY(-10px);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 11px 5px 9px rgba(0,0,0,0.75);
+}
+
+#emj-elec>p{
+    margin: 0;
+    font-size: 2em;
+}
+
+
+

@@ -1,39 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
 body{
     margin: 0px;
-    overflow: hidden;
+    
 }
 
-#logo{
-    width: 150px;
-    height: auto;
-}
-
-header{
+.nav-bar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1.5rem 6rem;
+ }
+
+
+ .logo{
+    display: flex;
     align-items: center;
-    padding: 10px;
+    max-width: 200px;
+ }
+
+ .logo>img{
+    width: 100%;
+    height: auto;
+ }
+
+.nav-list{
+    display: flex;
+    align-items: center;
 }
 
-nav{
-    margin-top: 2px;
-    font-family: 'Nunito Sans', sans-serif;
-
+.nav-list>ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
 }
 
-nav>a{
-    padding-right: 50px;
-       
+.nav-item{
+    margin: 0 15px;
 }
 
-#contact{
-    padding: 15px;
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: black;
+}
+
+.contact-button>button{
+    display: flex;
+    border: 1px solid #3090D2;
     border-radius: 30px;
-    border: 1px #3090D2 solid;
-    margin-right: 50px;
-    transition: 250ms;
+    padding: 10px 15px;
+    background-color: white;
+    align-items: center;
+}
+
+.contact-button>button a{
+    text-decoration: none;
     color: #3090D2;
+    padding: 10px 15px;
+    align-items: center;
+    font-size: 1rem;
 }
 
 #contact:hover{
@@ -109,6 +139,7 @@ footer{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-bottom: 0px;
@@ -220,6 +251,30 @@ footer{
 #emj-elec>p{
     margin: 0;
     font-size: 2em;
+}
+
+@media (max-width: 576px){
+    .logo{
+        min-width: 40%;
+    }
+}
+
+@media (max-width: 768px){
+    .logo{
+       min-width: 32%;
+    }
+}
+
+@media (max-width: 950px){
+    .logo{
+        width: 25%;
+    }
+}
+
+@media (max-width: 1200px){
+    .logo{
+        width: 20%;
+    }
 }
 
 
